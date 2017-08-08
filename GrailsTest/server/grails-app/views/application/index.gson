@@ -1,0 +1,8 @@
+import grails.core.*
+import grails.util.*
+import grails.plugins.*
+import org.grails.core.artefact.*
+
+json {
+	message "Bienvenido a Grails" 
+}

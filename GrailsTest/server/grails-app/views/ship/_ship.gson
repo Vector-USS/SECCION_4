@@ -1,0 +1,7 @@
+import grailstest.Ship
+
+model {
+	Ship ship
+}
+
+json g.render(ship, [resolveTemplate: false])

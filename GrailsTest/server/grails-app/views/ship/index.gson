@@ -1,0 +1,8 @@
+import grailstest.Ship
+
+model {
+	Iterable<Ship> shipList
+}
+
+json tmpl.ship(shipList ?: [])
+
